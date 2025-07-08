@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Interactive Navigation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="main-nav">
+        <div class="logo">
+            <a href="#">Portfolio</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li></ul></nav>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Welcome to My Portfolio</h1>
+                <p>Creating amazing digital experiences</p>
+                <a href="#projects" class="btn">View My Work</a>
+            </div>
+        </section>
+
+        <section id="about" class="section about-page">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="RESUME.jpg" alt="Portrait of a professional web developer with a friendly smile wearing business casual attire">
+                <div class="about-text">
+                    <p>I'm a passionate web developer with expertise in creating interactive and responsive websites. I specialize in front-end development and user experience design.</p>
+                    <p>With over 5 years of experience in the industry, I've worked with clients from various sectors to deliver high-quality digital solutions.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section projects-page">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="https://placehold.co/600x400" alt="E-commerce website dashboard with analytics charts and product listings">
+                    <h3>E-commerce Platform</h3>
+                    <p>A fully responsive online store with cart functionality and payment integration.</p>
+                </div>
+                <div class="project-card">
+                    <img src="https://placehold.co/600x400" alt="Mobile application interface showing fitness tracking metrics and charts">
+                    <h3>Fitness Tracker App</h3>
+                    <p>A health monitoring application with workout plans and progress tracking.</p>
+                </div>
+                <div class="project-card">
+                    <img src="https://placehold.co/600x400" alt="Corporate website landing page with modern design and call-to-action buttons">
+                    <h3>Corporate Website</h3>
+                    <p>Business website with content management system and lead generation forms.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section skills-page">
+            <h2>My Skills</h2>
+            <div class="skills-container">
+                <div class="skill">
+                    <h3>HTML5 & CSS3</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level html">95%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>JavaScript</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level js">85%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>React</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level react">80%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>Node.js</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level node">75%</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact-page">
+            <h2>Get In Touch</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
